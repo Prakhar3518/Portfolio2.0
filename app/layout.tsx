@@ -10,7 +10,7 @@ const _geistMono = Geist_Mono({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Prakhar - Full Stack Developer',
   description: 'Pre-Final Year CSE Student | DSA Enthusiast | System Design & Startups | Building scalable solutions',
-  generator: 'v0.app',
+  
   viewport: {
     width: 'device-width',
     initialScale: 1,
