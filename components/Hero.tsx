@@ -1,14 +1,17 @@
 'use client'
 
-import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react'
+import { ArrowRight, Github, Linkedin, Mail, Code2, Terminal } from 'lucide-react'
 import { useEffect, useState } from 'react'
 
 export default function Hero() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
 
   useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      setMousePosition({ x: e.clientX / window.innerWidth, y: e.clientY / window.innerHeight })
+    const handleMouseMove = (e) => {
+      setMousePosition({
+        x: e.clientX / window.innerWidth,
+        y: e.clientY / window.innerHeight,
+      })
     }
 
     window.addEventListener('mousemove', handleMouseMove)
@@ -48,7 +51,7 @@ export default function Hero() {
 
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Pre-Final Year CSE Student building scalable solutions with{' '}
-            <span className="text-primary font-semibold">Data Structures</span>, {' '}
+            <span className="text-primary font-semibold">Data Structures</span>,{' '}
             <span className="text-primary font-semibold">Web Development</span>, and a passion for{' '}
             <span className="text-primary font-semibold">System Design</span>
           </p>
@@ -78,6 +81,7 @@ export default function Hero() {
             >
               <Github size={24} className="group-hover:text-primary transition-colors" />
             </a>
+
             <a
               href="https://www.linkedin.com/in/prakhar-chaudhary-94a84a2b7"
               target="_blank"
@@ -86,6 +90,25 @@ export default function Hero() {
             >
               <Linkedin size={24} className="group-hover:text-primary transition-colors" />
             </a>
+
+            <a
+              href="https://leetcode.com/u/tmKa3ndX9t/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-4 bg-secondary/30 border border-border rounded-full hover:bg-primary/20 hover:border-primary transition-all duration-300 hover:scale-110 group"
+            >
+              <Code2 size={24} className="group-hover:text-primary transition-colors" />
+            </a>
+
+            <a
+              href="https://www.codechef.com/users/covey_seas_78"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-4 bg-secondary/30 border border-border rounded-full hover:bg-primary/20 hover:border-primary transition-all duration-300 hover:scale-110 group"
+            >
+              <Terminal size={24} className="group-hover:text-primary transition-colors" />
+            </a>
+
             <a
               href="mailto:prakharchaudhary0302@gmail.com"
               className="p-4 bg-secondary/30 border border-border rounded-full hover:bg-primary/20 hover:border-primary transition-all duration-300 hover:scale-110 group"
