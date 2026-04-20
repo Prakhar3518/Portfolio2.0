@@ -96,11 +96,11 @@ export default function Skills() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">100+</div>
+              <div className="text-4xl font-bold text-primary mb-2">350+</div>
               <p className="text-muted-foreground">Problems Solved across platforms</p>
               <div className="mt-4 text-sm space-y-1">
                 <p>LeetCode: 240+ problems</p>
-                <p>CodeChef: 20+ problems</p>
+                <p>CodeChef: 25+ problems</p>
                 <p>Codeforces: Consistent participation</p>
               </div>
             </div>
