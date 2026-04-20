@@ -36,7 +36,7 @@ export default function About() {
 
             <div className="grid grid-cols-3 gap-4 pt-8 animate-fadeInUp">
               <div className="p-4 bg-card border border-border rounded-lg hover:border-primary transition-colors">
-                <div className="text-2xl font-bold text-primary">250+</div>
+                <div className="text-2xl font-bold text-primary">350+</div>
                 <div className="text-sm text-muted-foreground">Problems Solved</div>
               </div>
               <div className="p-4 bg-card border border-border rounded-lg hover:border-primary transition-colors">

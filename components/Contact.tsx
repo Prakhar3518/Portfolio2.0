@@ -108,7 +108,7 @@ export default function Contact() {
         {/* Stats Section */}
         <div className="grid md:grid-cols-4 gap-4 mb-12 animate-fadeInUp">
           <div className="p-6 bg-secondary/30 border border-border rounded-lg text-center hover:border-primary hover:bg-secondary/50 transition-all">
-            <div className="text-3xl font-bold text-primary mb-2">250+</div>
+            <div className="text-3xl font-bold text-primary mb-2">350+</div>
             <div className="text-sm text-muted-foreground">Problems Solved</div>
           </div>
           <div className="p-6 bg-secondary/30 border border-border rounded-lg text-center hover:border-primary hover:bg-secondary/50 transition-all">
@@ -131,7 +131,7 @@ export default function Contact() {
             Built with <span className="text-primary">React</span> & <span className="text-accent">Next.js</span>. Hosted on Vercel.
           </p>
           <p className="text-sm text-muted-foreground mt-4">
-            © 2024 Prakhar Chaudhary. All rights reserved.
+            © 2026 Prakhar Chaudhary. All rights reserved.
           </p>
         </div>
       </div>
