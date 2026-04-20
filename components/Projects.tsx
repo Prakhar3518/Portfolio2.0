@@ -26,49 +26,56 @@ export default function Projects() {
   }, [])
 
   const projects = [
-    {
-      title: 'SRM Job Portal',
-      description: 'Comprehensive job portal platform for SRM students with job listings, applications, and recruitment management system. Streamlined hiring process for companies and students.',
-      tech: ['Spring Boot', 'React', 'PostgreSQL', 'JWT Auth', 'REST API'],
-      github: '#',
-      live: '#',
-    },
-    {
-      title: 'FareShare - Carpooling Platform',
-      description: 'Innovative carpooling application connecting commuters with shared rides. Features include ride matching, real-time tracking, payment integration, and user ratings.',
-      tech: ['Spring Boot', 'React', 'PostgreSQL', 'Google Maps API', 'Stripe'],
-      github: '#',
-      live: '#',
-    },
-    {
-      title: 'Learning Management System (LMS)',
-      description: 'Full-featured LMS platform for educational institutions with course management, student enrollment, assignments, grading, and progress tracking capabilities.',
-      tech: ['Spring Boot', 'React', 'PostgreSQL', 'JWT Auth', 'Elasticsearch'],
-      github: '#',
-      live: '#',
-    },
-    {
-      title: 'Cyberdeath - Interactive Game',
-      description: 'Engaging web-based game with interactive gameplay mechanics, real-time updates, and immersive user experience. Built with Spring Boot backend and modern frontend.',
-      tech: ['Spring Boot', 'React', 'WebSocket', 'Canvas API', 'PostgreSQL'],
-      github: '#',
-      live: '#',
-    },
-    {
-      title: 'Machine Learning Pipeline',
-      description: 'Data processing and ML pipeline for image classification using OpenCV, NumPy, and scikit-learn with 92% accuracy on test datasets.',
-      tech: ['Python', 'OpenCV', 'NumPy', 'Scikit-learn', 'Pandas'],
-      github: '#',
-      live: '#',
-    },
-    {
-      title: 'Portfolio Website',
-      description: 'Interactive portfolio with smooth animations, scroll effects, responsive design, and optimized performance built with Next.js and TypeScript.',
-      tech: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript', 'Lucide Icons'],
-      github: '#',
-      live: '#',
-    },
-  ]
+  {
+    title: 'SRM Job Portal | Automated Campus Recruitment Platform',
+    description: 'Full-stack job portal with AI-based student shortlisting and resume screening, automating recruitment for 500+ students across 20+ companies. Features real-time data fetching, dynamic filtering, and efficient handling of 1,000+ records.',
+    tech: ['React', 'Spring Boot', 'Spring Security', 'Spring MVC', 'Hibernate/JPA', 'RESTful APIs', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
+    github: '#',
+    
+  },
+  {
+    title: 'AutoNoted | AI-Powered Notes Generation System',
+    description: 'AI-based system that processes YouTube videos, detects board/scene changes using OpenCV, and generates structured notes as downloadable PDFs using NLP pipelines and a scalable Spring Boot backend.',
+    tech: ['Spring Boot', 'Spring Security', 'Spring MVC', 'Hibernate/JPA', 'RESTful APIs', 'OpenCV', 'NumPy', 'Pandas', 'NLP', 'yt-dlp', 'MySQL', 'Python'],
+    github: '#',
+   
+  },
+  {
+    title: 'Sewa | NGO–Volunteer Coordination Platform',
+    description: 'Role-based web platform connecting NGOs with volunteers, featuring task management, file uploads, location-based tagging, and AI-powered document Q&A (RAG).',
+    tech: ['React', 'Node.js', 'Express.js', 'REST APIs', 'Tailwind CSS', 'MySQL'],
+    github: '#',
+  
+  },
+  {
+    title: 'FareShare - Carpooling Platform',
+    description: 'Carpooling platform for ride sharing with features like ride matching, real-time tracking, payments, and user ratings.',
+    tech: ['React', 'Spring Boot', 'Spring Security', 'REST APIs', 'MySQL', 'Google Maps API', 'Stripe'],
+    github: '#',
+   
+  },
+  {
+    title: 'Learning Management System (LMS)',
+    description: 'Comprehensive LMS with course management, student enrollment, assignments, grading, and progress tracking.',
+    tech: ['React', 'Spring Boot', 'Spring Security', 'Spring MVC', 'Hibernate/JPA', 'REST APIs', 'MySQL', 'Elasticsearch'],
+    github: '#',
+   
+  },
+  {
+    title: 'Cyberdeath - Interactive Game',
+    description: 'Interactive web-based game with dynamic storytelling, real-time updates, and immersive gameplay experience.',
+    tech: ['React', 'Spring Boot', 'WebSocket', 'Canvas API', 'MySQL', 'JavaScript'],
+    github: '#',
+   
+  },
+  {
+    title: 'Portfolio Website',
+    description: 'Modern responsive portfolio with animations, smooth scrolling, and optimized performance built using Next.js and TypeScript.',
+    tech: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript'],
+    github: '#',
+   
+  }
+]
 
   return (
     <section id="projects" className="py-20 px-4 bg-secondary/20 relative overflow-hidden">

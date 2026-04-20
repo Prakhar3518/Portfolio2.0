@@ -31,7 +31,7 @@ export default function Skills() {
     },
     {
       title: 'Frameworks & Libraries',
-      skills: ['React', 'Spring Boot', 'Tailwind CSS', 'NumPy', 'Pandas', 'OpenCV'],
+      skills: ['Node.js', 'Express.js', 'Spring Boot', 'React', 'Spring Security', 'Spring MVC', 'Fetch API', 'Hibernate', 'Pandas', 'NumPy', 'OpenCV'],
     },
     {
       title: 'Tools & Platforms',
@@ -99,8 +99,8 @@ export default function Skills() {
               <div className="text-4xl font-bold text-primary mb-2">100+</div>
               <p className="text-muted-foreground">Problems Solved across platforms</p>
               <div className="mt-4 text-sm space-y-1">
-                <p>LeetCode: 80+ problems</p>
-                <p>CodeChef: 15+ problems</p>
+                <p>LeetCode: 240+ problems</p>
+                <p>CodeChef: 20+ problems</p>
                 <p>Codeforces: Consistent participation</p>
               </div>
             </div>

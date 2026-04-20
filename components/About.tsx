@@ -70,7 +70,7 @@ export default function About() {
                 <div>
                   <h3 className="font-semibold text-lg mb-2">Full Stack Development</h3>
                   <p className="text-muted-foreground">
-                    Building responsive web applications with React, Node.js, and modern tooling
+                    Building responsive web applications with React, Node.js, Spring Boot and modern tooling
                   </p>
                 </div>
               </div>
