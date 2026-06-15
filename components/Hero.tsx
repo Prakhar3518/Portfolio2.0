@@ -50,7 +50,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Pre-Final Year CSE Student building scalable solutions with{' '}
+            Final Year CSE Student building scalable solutions with{' '}
             <span className="text-primary font-semibold">Data Structures</span>,{' '}
             <span className="text-primary font-semibold">Web Development</span>, and a passion for{' '}
             <span className="text-primary font-semibold">System Design</span>
